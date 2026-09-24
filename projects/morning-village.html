@@ -482,101 +482,119 @@ body { margin:0; background:#ffffff; }
     }
     #floorplans h2 {
       font-family:var(--font-display); font-weight:400; color:var(--title);
-      font-size:28px; margin:0 0 20px;
+      font-size:28px; margin:0 0 12px;
     }
-    #floorplans table {
-      width:100%; border-collapse:collapse; font-size:13.5px; margin-bottom:36px;
+    #floorplans .mv-intro {
+      font-size:15px; color:var(--muted); max-width:640px; margin:0 0 8px;
     }
-    #floorplans th {
-      text-align:left; padding:10px 12px; color:var(--header);
-      border-bottom:2px solid var(--header); font-family:var(--font-display); font-weight:400;
+    #floorplans .mv-carousel {
+      display:flex; overflow-x:auto; scroll-snap-type:x mandatory; scroll-behavior:smooth;
+      -webkit-overflow-scrolling:touch; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+      margin:24px 0 20px; scrollbar-width:thin;
     }
-    #floorplans td {
-      padding:10px 12px; border-bottom:1px solid var(--rule); vertical-align:top;
+    #floorplans .mv-slide {
+      flex:0 0 100%; scroll-snap-align:start; box-sizing:border-box; padding:40px 4px;
+      display:grid; grid-template-columns:1.15fr 1fr; gap:40px; align-items:center;
     }
-    #floorplans .gallery {
-      display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:12px;
+    @media (max-width:700px) {
+      #floorplans .mv-slide { grid-template-columns:1fr; }
     }
-    #floorplans figure { margin:0; }
-    #floorplans figure img {
+    #floorplans .mv-slide img {
       width:100%; height:auto; display:block; border:1px solid var(--rule);
     }
-    #floorplans figcaption {
-      font-size:13px; color:var(--muted); margin-top:8px; font-family:var(--font-display);
+    #floorplans .mv-slide-eyebrow {
+      font-family:var(--font-mono); font-size:12px; letter-spacing:0.08em; color:var(--accent); margin-bottom:10px;
+    }
+    #floorplans .mv-slide-info h3 {
+      font-family:var(--font-display); font-weight:400; font-size:30px; color:var(--title); margin:0 0 16px;
+    }
+    #floorplans .mv-slide-info p {
+      font-size:14.5px; line-height:1.7; color:var(--body); margin:0 0 10px;
+    }
+    #floorplans .mv-feature {
+      font-size:13.5px; color:var(--muted); font-style:italic; border-left:2px solid var(--accent);
+      padding-left:14px; margin-top:16px !important;
+    }
+    #floorplans .mv-dots {
+      display:flex; gap:10px; justify-content:center; margin:0 0 36px;
+    }
+    #floorplans .mv-dots a {
+      width:9px; height:9px; border-radius:50%; background:var(--rule); display:block; text-decoration:none;
+    }
+    #floorplans .mv-hint {
+      text-align:center; font-size:12.5px; color:var(--muted); margin:0 0 8px;
     }
   </style>
 
   <div data-id="e368a2f1" style="max-width:var(--column); margin:0 auto;">
     <div data-id="ef2dcbc1" class="label">02 · 户型展示</div>
-    <h2 data-id="d387adc6">户型展示</h2>
+    <h2 data-id="d387adc6">六种户型，六种生活方式</h2>
+    <p class="mv-intro">从年轻家庭到多代同堂，从创业者到商住两用需求，左右滑动或点击下方圆点，逐一浏览每种户型的平面布局。</p>
 
-    <table data-id="acad6095">
-      <thead data-id="9ff13819">
-        <tr data-id="5489fce2">
-          <th data-id="1a4b133c">户型</th>
-          <th data-id="9065c454">楼层配置</th>
-          <th data-id="84155b44">特色说明</th>
-        </tr>
-      </thead>
-      <tbody data-id="83e08ea3">
-        <tr data-id="593e83ea">
-          <td data-id="1baf6b81">T1</td>
-          <td data-id="1e56648c">三层联排，主卧套间位于顶层</td>
-          <td data-id="62ebbc98">紧凑起始户型，适合首次置业家庭</td>
-        </tr>
-        <tr data-id="f61e916c">
-          <td data-id="967a8079">T2</td>
-          <td data-id="e9ab2a44">三层联排，附带车库入户</td>
-          <td data-id="519ec86a">动线开阔，厨房与起居区一体化设计</td>
-        </tr>
-        <tr data-id="39ea48cd">
-          <td data-id="9a6fb907">T3</td>
-          <td data-id="5ff89940">三层端头户型，侧向采光</td>
-          <td data-id="690448d0">转角单元，两侧采光带来更明亮的居住空间</td>
-        </tr>
-        <tr data-id="c5bf946b">
-          <td data-id="993dddc4">T4</td>
-          <td data-id="3c7f2412">三层联排，四卧室布局</td>
-          <td data-id="c604e149">面积最大户型之一，适合多代同堂或大家庭</td>
-        </tr>
-        <tr data-id="f7fa344c">
-          <td data-id="5326b0c6">V3a</td>
-          <td data-id="6acfbf02">底层商业空间 + 独立住宅入口</td>
-          <td data-id="a1b55ed5">商住分离设计，居住与经营互不干扰</td>
-        </tr>
-        <tr data-id="75e817cf">
-          <td data-id="f3a8f0e7">B</td>
-          <td data-id="097ed41e">紧凑底层商业空间 + 独立住宅单元</td>
-          <td data-id="1ee36584">灵活商住组合，适合自营商户或投资出租</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <div data-id="0e5471b3" class="gallery">
-      <figure data-id="2acd6067">
-        <img data-id="3d92c922" src="../images/floorplans/T1-floorplan.jpg" alt="T1 户型平面图">
-        <figcaption data-id="a8f1fc60">T1 户型平面图</figcaption>
-      </figure>
-      <figure data-id="bab2d268">
-        <img data-id="c157d711" src="../images/floorplans/T2-floorplan.jpg" alt="T2 户型平面图">
-        <figcaption data-id="5e3bc3f3">T2 户型平面图</figcaption>
-      </figure>
-      <figure data-id="8d2e78fa">
-        <img data-id="ddd278f7" src="../images/floorplans/T3-floorplan.jpg" alt="T3 户型平面图">
-        <figcaption data-id="6a6af248">T3 户型平面图</figcaption>
-      </figure>
-      <figure data-id="d3a6f0c6">
-        <img data-id="5eb8e773" src="../images/floorplans/T4-floorplan.jpg" alt="T4 户型平面图">
-        <figcaption data-id="64159abb">T4 户型平面图</figcaption>
-      </figure>
-      <figure data-id="cae915a5">
-        <img data-id="7ec222e1" src="../images/floorplans/V3a-floorplan.jpg" alt="V3a 户型平面图">
-        <figcaption data-id="3522003e">V3a 户型平面图</figcaption>
-      </figure>
-      <figure data-id="988a6a5e">
-        <img data-id="ed96df62" src="../images/floorplans/B-floorplan.jpg" alt="B 户型平面图">
-        <figcaption data-id="955fe27e">B 户型平面图</figcaption>
-      </figure>
+    <div class="mv-carousel">
+      <div class="mv-slide" id="plan-t1">
+        <img src="../images/floorplans/T1-floorplan.jpg" alt="T1 户型平面图">
+        <div class="mv-slide-info">
+          <div class="mv-slide-eyebrow">户型 T1</div>
+          <h3>T1</h3>
+          <p>地面层车库＋工坊；二层客厅、厨房、餐厅、阳台；三层2间卧室＋主卧套房。</p>
+          <p class="mv-feature">三层联排设计，适合年轻家庭。</p>
+        </div>
+      </div>
+      <div class="mv-slide" id="plan-t2">
+        <img src="../images/floorplans/T2-floorplan.jpg" alt="T2 户型平面图">
+        <div class="mv-slide-info">
+          <div class="mv-slide-eyebrow">户型 T2</div>
+          <h3>T2</h3>
+          <p>地面层车库＋1间卧室；二层客厅、厨房、餐厅；三层双主卧套房设计。</p>
+          <p class="mv-feature">适合合租或多代同堂。</p>
+        </div>
+      </div>
+      <div class="mv-slide" id="plan-t3">
+        <img src="../images/floorplans/T3-floorplan.jpg" alt="T3 户型平面图">
+        <div class="mv-slide-info">
+          <div class="mv-slide-eyebrow">户型 T3</div>
+          <h3>T3</h3>
+          <p>地下室家庭室＋卧室＋卫浴；一层开放式厨餐厅＋双车库；二层3卧室（含主卧套房）＋阳台。</p>
+          <p class="mv-feature">大户型，约 2,829 平方英尺。</p>
+        </div>
+      </div>
+      <div class="mv-slide" id="plan-t4">
+        <img src="../images/floorplans/T4-floorplan.jpg" alt="T4 户型平面图">
+        <div class="mv-slide-info">
+          <div class="mv-slide-eyebrow">户型 T4</div>
+          <h3>T4</h3>
+          <p>地下室2卧室＋娱乐室；一层开放式厨餐厅＋双车库；二层主卧＋2卧室＋家庭室＋阳台。</p>
+          <p class="mv-feature">最大户型，约 3,303 平方英尺，适合多代同住。</p>
+        </div>
+      </div>
+      <div class="mv-slide" id="plan-v3a">
+        <img src="../images/floorplans/V3a-floorplan.jpg" alt="V3a 户型平面图">
+        <div class="mv-slide-info">
+          <div class="mv-slide-eyebrow">户型 V3a</div>
+          <h3>V3a</h3>
+          <p>一层商业空间＋双车库；二层住宅（主卧、卧室、客厅、厨餐厅、阳台）。</p>
+          <p class="mv-feature">商住一体，创业首选。</p>
+        </div>
+      </div>
+      <div class="mv-slide" id="plan-b">
+        <img src="../images/floorplans/B-floorplan.jpg" alt="B 户型平面图">
+        <div class="mv-slide-info">
+          <div class="mv-slide-eyebrow">户型 B</div>
+          <h3>B</h3>
+          <p>一层商业空间＋仓储＋双车库；二层3卧室（含主卧）＋双卫浴＋客厅厨餐厅＋阳台。</p>
+          <p class="mv-feature">商业与居住空间完全分离，可分租为两个独立单元。</p>
+        </div>
+      </div>
+    </div>
+    <p class="mv-hint">← 左右滑动查看全部六种户型 →</p>
+    <div class="mv-dots">
+      <a href="#plan-t1" aria-label="T1 户型"></a>
+<a href="#plan-t2" aria-label="T2 户型"></a>
+<a href="#plan-t3" aria-label="T3 户型"></a>
+<a href="#plan-t4" aria-label="T4 户型"></a>
+<a href="#plan-v3a" aria-label="V3a 户型"></a>
+<a href="#plan-b" aria-label="B 户型"></a>
     </div>
   </div>
 </section>
