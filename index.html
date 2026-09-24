@@ -4,27 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light">
-<meta name="description" content="MORNING VILLAGE by ASPAIRE GROUP — Dundurn, SK 联排别墅社区，提供多种户型，欢迎预约参观。">
-<title>MORNING VILLAGE — ASPAIRE GROUP</title>
+<meta name="description" content="ASPAIRE GROUP — 专注品质与工艺的建筑与地产开发公司。">
+<title>ASPAIRE GROUP — 用匠心，建造理想生活</title>
 <style>
 body { margin:0; background:#ffffff; }
 
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
-}
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
 html, body { background: var(--page); margin: 0; display: flow-root; }
 @media print {
   figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
@@ -33,82 +18,29 @@ html, body { background: var(--page); margin: 0; display: flow-root; }
   thead { display: table-header-group; }
   h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
 }
-.mv-nav { position: sticky; top: 0; z-index: 20; display: flex; align-items: center;
-  justify-content: space-between; gap: 24px; padding: 16px 24px; background: rgba(255,255,255,0.94);
-  border-bottom: 1px solid var(--rule); backdrop-filter: none; }
-.mv-nav__brand { font-family: var(--font-display); font-size: 16px; letter-spacing: 0.04em;
-  color: var(--header); font-weight: 700; white-space: nowrap; }
-.mv-nav__links { display: flex; flex-wrap: wrap; gap: 20px; }
-.mv-nav__links a { font-size: 13px; color: var(--body); text-decoration: none; white-space: nowrap; }
-.mv-nav__links a:hover { color: var(--accent); }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-hero-copy { padding: 72px 24px 0; }
-.mv-hero-title { font-family: var(--font-display); font-size: 40px; line-height: 1.2; color: var(--title);
-  margin: 0 0 20px; font-weight: 700; }
-.mv-hero-lede { font-size: 16px; line-height: 1.7; color: var(--body); max-width: 640px; margin: 0 0 28px; }
-.mv-hero-facts { display: flex; flex-wrap: wrap; gap: 28px; margin: 0 0 32px; }
-.mv-hero-fact { font-size: 13px; color: var(--muted); }
-.mv-hero-fact strong { display: block; font-family: var(--font-display); font-size: 15px; color: var(--header); }
-.mv-cta-row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 56px; }
-.mv-btn-primary { background: var(--accent); color: #ffffff; font-size: 14px; font-weight: 600;
-  padding: 14px 28px; text-decoration: none; border: 1px solid var(--accent); }
-.mv-btn-secondary { background: transparent; color: var(--header); font-size: 14px; font-weight: 600;
-  padding: 14px 28px; text-decoration: none; border: 1px solid var(--header); }
-.mv-hero-img { width: 100%; display: block; }
-.mv-hero-caption { font-size: 12px; color: var(--muted); padding: 12px 24px 72px; margin: 0; }
-
-
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
+.aspaire-nav {
+  position: sticky; top: 0; z-index: 20;
+  background: var(--page);
+  border-bottom: 1px solid var(--rule);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 18px 24px;
 }
-html, body { background: var(--page-alt); margin: 0; display: flow-root; }
-@media print {
-  figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
-  img, svg { break-inside: avoid; page-break-inside: avoid; }
-  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
-  thead { display: table-header-group; }
-  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+.aspaire-nav__brand {
+  font-family: var(--font-display); font-size: 20px; letter-spacing: 0.04em;
+  color: var(--header); font-weight: 700;
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 12px; font-weight: 700; }
-.mv-lede { font-size: 15px; color: var(--muted); margin: 0 0 40px; max-width: 620px; }
-.mv-tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-.mv-tile { border-top: 2px solid var(--header); padding-top: 14px; }
-.mv-tile-label { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
-.mv-tile-value { font-family: var(--font-display); font-size: 20px; color: var(--header); line-height: 1.35; }
+.aspaire-nav__links { display: flex; gap: 28px; list-style: none; margin: 0; padding: 0; }
+.aspaire-nav__links a {
+  color: var(--body); text-decoration: none; font-size: 14px;
+  letter-spacing: 0.01em;
+}
+.aspaire-nav__links a:hover { color: var(--accent); }
+@media (max-width: 640px) {
+  .aspaire-nav__links { display: none; }
+}
 
 
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
-}
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
 html, body { background: var(--page); margin: 0; display: flow-root; }
 @media print {
   figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
@@ -117,67 +49,31 @@ html, body { background: var(--page); margin: 0; display: flow-root; }
   thead { display: table-header-group; }
   h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 12px; font-weight: 700; }
-.mv-lede { font-size: 15px; color: var(--muted); margin: 0 0 40px; max-width: 640px; }
-.mv-plan-img { width: 100%; display: block; margin: 0 0 40px; }
-.mv-plan-table { width: 100%; border-collapse: collapse; font-size: 14px; }
-.mv-plan-table th { text-align: left; padding: 10px 12px; font-size: 12px; color: var(--muted);
-  border-bottom: 2px solid var(--header); font-weight: 600; }
-.mv-plan-table td { padding: 14px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
-.mv-plan-table td.mv-plan-name { font-family: var(--font-display); font-size: 16px; color: var(--header); white-space: nowrap; }
-
-
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
+.hero-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+  color: var(--accent); margin-bottom: 18px; text-transform: uppercase;
 }
-html, body { background: var(--page-alt); margin: 0; display: flow-root; }
-@media print {
-  figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
-  img, svg { break-inside: avoid; page-break-inside: avoid; }
-  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
-  thead { display: table-header-group; }
-  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+.hero-rule { height: 1px; background: var(--rule); margin: 0 0 32px; }
+.hero-title {
+  font-family: var(--font-display); font-size: 42px; line-height: 1.2;
+  color: var(--title); margin: 0 0 20px; font-weight: 400;
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 32px; font-weight: 700; }
-.mv-quote { border-left: 3px solid var(--accent); padding: 4px 0 4px 32px; margin: 0 0 24px; }
-.mv-quote-text { font-family: var(--font-display); font-style: italic; font-size: 26px; line-height: 1.45;
-  color: var(--header); margin: 0; }
-.mv-quote-attr { font-size: 13px; color: var(--muted); margin-top: 16px; }
+.hero-lead {
+  font-size: 17px; line-height: 1.7; color: var(--body); max-width: 620px;
+  margin: 0 0 32px;
+}
+.hero-media { margin: 0 0 32px; }
+.hero-media img { width: 100%; height: auto; display: block; }
+.hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+.hero-btn {
+  display: inline-block; padding: 13px 28px; font-size: 14px;
+  text-decoration: none; letter-spacing: 0.02em;
+}
+.hero-btn--primary { background: var(--header); color: var(--page); }
+.hero-btn--ghost { border: 1px solid var(--header); color: var(--header); }
 
 
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
-}
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
 html, body { background: var(--page); margin: 0; display: flow-root; }
 @media print {
   figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
@@ -186,69 +82,28 @@ html, body { background: var(--page); margin: 0; display: flow-root; }
   thead { display: table-header-group; }
   h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 32px; font-weight: 700; }
-.mv-about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
-.mv-about-img { width: 100%; display: block; }
-.mv-about-copy p { font-size: 15px; line-height: 1.7; margin: 0 0 18px; }
-.mv-agent { border-top: 1px solid var(--rule); padding-top: 16px; margin-top: 8px; }
-.mv-agent-name { font-family: var(--font-display); font-size: 17px; color: var(--header); margin-bottom: 4px; }
-.mv-agent-role { font-size: 13px; color: var(--muted); }
-@media (max-width: 640px) { .mv-about-grid { grid-template-columns: 1fr; } }
-
-
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
+.about-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+  color: var(--accent); margin-bottom: 18px; text-transform: uppercase;
 }
-html, body { background: var(--page-alt); margin: 0; display: flow-root; }
-@media print {
-  figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
-  img, svg { break-inside: avoid; page-break-inside: avoid; }
-  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
-  thead { display: table-header-group; }
-  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+.about-rule { height: 1px; background: var(--rule); margin: 0 0 40px; }
+.about-heading {
+  font-family: var(--font-display); font-size: 30px; color: var(--title);
+  margin: 0 0 28px; font-weight: 400;
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 8px; font-weight: 700; }
-.mv-lede { font-size: 15px; color: var(--muted); margin: 0 0 40px; }
-.mv-steps { padding-left: 24px; margin: 0; font-size: 14px; }
-.mv-steps li { margin-bottom: 22px; padding-left: 6px; }
-.mv-steps li::marker { font-family: var(--font-display); color: var(--header); font-weight: 700; }
-.mv-steps strong { display: block; font-family: var(--font-display); font-size: 17px; color: var(--header);
-  margin-bottom: 4px; font-weight: 700; }
+.about-grid {
+  display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: start;
+}
+.about-grid img { width: 100%; height: auto; display: block; }
+.about-text p { font-size: 15px; line-height: 1.75; margin: 0 0 18px; }
+.about-lead-name { font-family: var(--font-display); font-size: 18px; color: var(--header); margin: 0 0 4px; }
+.about-lead-role { font-size: 13px; color: var(--muted); margin: 0; }
+@media (max-width: 640px) {
+  .about-grid { grid-template-columns: 1fr; }
+}
 
 
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
-}
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
 html, body { background: var(--page); margin: 0; display: flow-root; }
 @media print {
   figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
@@ -257,21 +112,98 @@ html, body { background: var(--page); margin: 0; display: flow-root; }
   thead { display: table-header-group; }
   h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 12px; font-weight: 700; }
-.mv-lede { font-size: 15px; color: var(--muted); margin: 0 0 40px; max-width: 560px; }
-.mv-contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-.mv-contact-name { font-family: var(--font-display); font-size: 22px; color: var(--header); margin-bottom: 4px; }
-.mv-contact-role { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
-.mv-contact-list { list-style: none; margin: 0; padding: 0; font-size: 14px; }
-.mv-contact-list li { padding: 10px 0; border-bottom: 1px solid var(--rule); }
-.mv-contact-list li:first-child { padding-top: 0; }
-.mv-contact-label { display: inline-block; width: 64px; color: var(--muted); font-size: 12px; }
-.mv-cta { align-self: start; }
-.mv-btn-primary { display: inline-block; background: var(--accent); color: #ffffff; font-size: 14px; font-weight: 600;
-  padding: 14px 28px; text-decoration: none; border: 1px solid var(--accent); }
-@media (max-width: 640px) { .mv-contact-grid { grid-template-columns: 1fr; } }
+.proc-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+  color: var(--accent); margin-bottom: 18px; text-transform: uppercase;
+}
+.proc-rule { height: 1px; background: var(--rule); margin: 0 0 40px; }
+.proc-heading {
+  font-family: var(--font-display); font-size: 30px; color: var(--title);
+  margin: 0 0 8px; font-weight: 400;
+}
+.proc-sub { font-size: 15px; color: var(--muted); margin: 0 0 36px; }
+.proc-steps {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 32px 40px;
+}
+.proc-step { border-top: 1px solid var(--rule); padding-top: 16px; }
+.proc-step-num {
+  font-family: var(--font-display); font-size: 22px; color: var(--accent);
+  display: block; margin-bottom: 8px;
+}
+.proc-step-title { font-size: 16px; color: var(--header); font-weight: 600; margin: 0 0 8px; }
+.proc-step-desc { font-size: 14px; color: var(--body); margin: 0; line-height: 1.6; }
+@media (max-width: 640px) {
+  .proc-steps { grid-template-columns: 1fr; }
+}
+
+
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
+html, body { background: var(--page); margin: 0; display: flow-root; }
+@media print {
+  figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
+  img, svg { break-inside: avoid; page-break-inside: avoid; }
+  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+}
+.proj-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+  color: var(--accent); margin-bottom: 18px; text-transform: uppercase;
+}
+.proj-rule { height: 1px; background: var(--rule); margin: 0 0 40px; }
+.proj-heading {
+  font-family: var(--font-display); font-size: 30px; color: var(--title);
+  margin: 0 0 28px; font-weight: 400;
+}
+.proj-card {
+  background: var(--page);
+  display: grid; grid-template-columns: 1.1fr 0.9fr;
+}
+.proj-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.proj-card-body { padding: 32px; display: flex; flex-direction: column; justify-content: center; }
+.proj-name {
+  font-family: var(--font-display); font-size: 24px; color: var(--header);
+  margin: 0 0 6px;
+}
+.proj-loc { font-size: 13px; color: var(--muted); margin: 0 0 16px; letter-spacing: 0.02em; }
+.proj-desc { font-size: 14px; line-height: 1.7; color: var(--body); margin: 0 0 24px; }
+.proj-link {
+  font-size: 14px; color: var(--header); text-decoration: none; font-weight: 600;
+  border-bottom: 1px solid var(--header); padding-bottom: 2px; align-self: flex-start;
+}
+@media (max-width: 640px) {
+  .proj-card { grid-template-columns: 1fr; }
+}
+
+
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
+html, body { background: var(--page); margin: 0; display: flow-root; }
+@media print {
+  figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
+  img, svg { break-inside: avoid; page-break-inside: avoid; }
+  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+}
+.contact-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+  color: color-mix(in srgb, var(--page) 65%, var(--accent));
+  margin-bottom: 18px; text-transform: uppercase;
+}
+.contact-rule { height: 1px; background: color-mix(in srgb, var(--page) 25%, var(--header)); margin: 0 0 40px; }
+.contact-heading {
+  font-family: var(--font-display); font-size: 30px; color: var(--page);
+  margin: 0 0 32px; font-weight: 400;
+}
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px 40px; padding-bottom: 40px; }
+.contact-grid dt {
+  font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--page) 65%, var(--accent)); margin: 0 0 6px;
+}
+.contact-grid dd { font-size: 15px; color: var(--page); margin: 0 0 24px; line-height: 1.6; }
+.contact-name { font-family: var(--font-display); font-size: 20px; color: var(--page); margin: 0 0 4px; }
+.contact-role { font-size: 13px; color: color-mix(in srgb, var(--page) 70%, var(--accent)); margin: 0 0 28px; }
 
 @media print {
   section { page-break-after: always; }
@@ -280,24 +212,8 @@ html, body { background: var(--page); margin: 0; display: flow-root; }
 </style>
 </head>
 <body>
-<section data-section-id="hero" id="hero" data-id="f2394430" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.6; padding:0 0 0;">
-<style>
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
-}
+<section data-id="724d520a" data-section-id="nav" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.5; padding:0;"><style>
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
 html, body { background: var(--page); margin: 0; display: flow-root; }
 @media print {
   figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
@@ -306,146 +222,29 @@ html, body { background: var(--page); margin: 0; display: flow-root; }
   thead { display: table-header-group; }
   h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
 }
-.mv-nav { position: sticky; top: 0; z-index: 20; display: flex; align-items: center;
-  justify-content: space-between; gap: 24px; padding: 16px 24px; background: rgba(255,255,255,0.94);
-  border-bottom: 1px solid var(--rule); backdrop-filter: none; }
-.mv-nav__brand { font-family: var(--font-display); font-size: 16px; letter-spacing: 0.04em;
-  color: var(--header); font-weight: 700; white-space: nowrap; }
-.mv-nav__links { display: flex; flex-wrap: wrap; gap: 20px; }
-.mv-nav__links a { font-size: 13px; color: var(--body); text-decoration: none; white-space: nowrap; }
-.mv-nav__links a:hover { color: var(--accent); }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-hero-copy { padding: 72px 24px 0; }
-.mv-hero-title { font-family: var(--font-display); font-size: 40px; line-height: 1.2; color: var(--title);
-  margin: 0 0 20px; font-weight: 700; }
-.mv-hero-lede { font-size: 16px; line-height: 1.7; color: var(--body); max-width: 640px; margin: 0 0 28px; }
-.mv-hero-facts { display: flex; flex-wrap: wrap; gap: 28px; margin: 0 0 32px; }
-.mv-hero-fact { font-size: 13px; color: var(--muted); }
-.mv-hero-fact strong { display: block; font-family: var(--font-display); font-size: 15px; color: var(--header); }
-.mv-cta-row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 56px; }
-.mv-btn-primary { background: var(--accent); color: #ffffff; font-size: 14px; font-weight: 600;
-  padding: 14px 28px; text-decoration: none; border: 1px solid var(--accent); }
-.mv-btn-secondary { background: transparent; color: var(--header); font-size: 14px; font-weight: 600;
-  padding: 14px 28px; text-decoration: none; border: 1px solid var(--header); }
-.mv-hero-img { width: 100%; display: block; }
-.mv-hero-caption { font-size: 12px; color: var(--muted); padding: 12px 24px 72px; margin: 0; }
-</style>
-
-<nav data-id="682237dd" class="mv-nav">
-  <div data-id="7b7a769a" class="mv-nav__brand">MORNING VILLAGE · ASPAIRE</div>
-  <div data-id="300f84d0" class="mv-nav__links">
-    <a data-id="748f5144" href="#hero">首页</a>
-    <a data-id="b77bdd69" href="#project-overview">项目概况</a>
-    <a data-id="e45da539" href="#floor-plans">户型展示</a>
-    <a data-id="d657a577" href="#mixed-use">商住两用</a>
-    <a data-id="9de9befa" href="#about-aspaire">关于我们</a>
-    <a data-id="00560fe1" href="#construction-process">建造流程</a>
-    <a data-id="6018d746" href="#contact">联系我们</a>
-  </div>
-</nav>
-
-<div data-id="50d5c982" class="mv-hero-copy" style="max-width:var(--column); margin:0 auto;">
-  <div data-id="f0dd90b9" class="mv-eyebrow">01 / 首页</div>
-  <h1 data-id="afafc712" class="mv-hero-title">MORNING VILLAGE——在晨光中，遇见理想生活</h1>
-  <p data-id="a77e9f68" class="mv-hero-lede">
-    坐落于萨斯喀彻温省 Dundurn 小镇 Prairie Dawn Drive，Morning Village 连接萨斯卡通与另一大城市，车程仅20分钟，
-    紧邻省立公园与湖泊，是正在崛起的投资热土。ASPAIRE 以联排别墅为语言，打造这座社区，提供 T1、T2、T3、T4、V3a
-    及商住两用户型 B 共六种设计，回应不同家庭与创业者的居住需求。
-  </p>
-  <div data-id="b9cf8570" class="mv-hero-facts">
-    <div data-id="155bc628" class="mv-hero-fact"><strong data-id="c2ebb925">20 分钟</strong>距萨斯卡通车程</div>
-    <div data-id="5fddd824" class="mv-hero-fact"><strong data-id="9f572cac">6 种户型</strong>T1 / T2 / T3 / T4 / V3a / B</div>
-    <div data-id="f314feb2" class="mv-hero-fact"><strong data-id="d78193af">2022 年</strong>建成，样板间可参观</div>
-  </div>
-  <div data-id="815df120" class="mv-cta-row">
-    <a data-id="e96cb83b" class="mv-btn-primary" href="#contact">预约参观已建成样板间</a>
-    <a data-id="99bb9e16" class="mv-btn-secondary" href="#floor-plans">查看户型详情</a>
-  </div>
-</div>
-
-<img data-id="1016ebe6" class="mv-hero-img" src="images/morning-village-hero-exterior.webp" alt="Morning Village 联排别墅社区外观，晨光下的现代联排住宅">
-<p data-id="974fbb59" class="mv-hero-caption" style="max-width:var(--column); margin-left:auto; margin-right:auto;">Morning Village 社区外观效果图，晨光洒落的联排别墅街景。</p>
-</section>
-<section data-section-id="project-overview" id="project-overview" data-id="f2421f27" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page-alt); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.6; padding:16px 24px 0; border-top:1px solid var(--rule);">
-<style>
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
+.aspaire-nav {
+  position: sticky; top: 0; z-index: 20;
+  background: var(--page);
+  border-bottom: 1px solid var(--rule);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 18px 24px;
 }
-html, body { background: var(--page-alt); margin: 0; display: flow-root; }
-@media print {
-  figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
-  img, svg { break-inside: avoid; page-break-inside: avoid; }
-  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
-  thead { display: table-header-group; }
-  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+.aspaire-nav__brand {
+  font-family: var(--font-display); font-size: 20px; letter-spacing: 0.04em;
+  color: var(--header); font-weight: 700;
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 12px; font-weight: 700; }
-.mv-lede { font-size: 15px; color: var(--muted); margin: 0 0 40px; max-width: 620px; }
-.mv-tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-.mv-tile { border-top: 2px solid var(--header); padding-top: 14px; }
-.mv-tile-label { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
-.mv-tile-value { font-family: var(--font-display); font-size: 20px; color: var(--header); line-height: 1.35; }
-</style>
-
-<div data-id="4b38a30d" style="max-width:var(--column); margin:0 auto; padding:72px 0 80px;">
-  <div data-id="bf161cd9" class="mv-eyebrow">02 / 项目概况</div>
-  <h2 data-id="3168ad8e" class="mv-h2">硬核信息，一目了然</h2>
-  <p data-id="b14c2653" class="mv-lede">从地址到交付，Morning Village 的每一项关键信息都清晰可查，方便您快速评估这座社区的价值。</p>
-
-  <div data-id="2bb414c2" class="mv-tiles">
-    <div data-id="c698fc11" class="mv-tile">
-      <div data-id="6f4a9e1e" class="mv-tile-label">项目地址</div>
-      <div data-id="5678b22e" class="mv-tile-value">Prairie Dawn Drive, Dundurn, SK S0K 1K0</div>
-    </div>
-    <div data-id="70a12ab5" class="mv-tile">
-      <div data-id="f84252bc" class="mv-tile-label">区位优势</div>
-      <div data-id="6ff6592f" class="mv-tile-value">连接两大城市，距萨斯卡通约 20 分钟车程，紧邻省立公园与湖泊</div>
-    </div>
-    <div data-id="6df5069e" class="mv-tile">
-      <div data-id="fc91c42f" class="mv-tile-label">建成时间</div>
-      <div data-id="f167b924" class="mv-tile-value">2022 年建成，已有样板间可供参观</div>
-    </div>
-    <div data-id="f9cff0f5" class="mv-tile">
-      <div data-id="b231458b" class="mv-tile-label">起价参考</div>
-      <div data-id="99b5853a" class="mv-tile-value">$836,800（以 2521 平方英尺户型为例）</div>
-    </div>
-  </div>
-</div>
-</section>
-<section data-section-id="floor-plans" id="floor-plans" data-id="33961714" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.6; padding:16px 24px 0; border-top:1px solid var(--rule);">
-<style>
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
+.aspaire-nav__links { display: flex; gap: 28px; list-style: none; margin: 0; padding: 0; }
+.aspaire-nav__links a {
+  color: var(--body); text-decoration: none; font-size: 14px;
+  letter-spacing: 0.01em;
 }
+.aspaire-nav__links a:hover { color: var(--accent); }
+@media (max-width: 640px) {
+  .aspaire-nav__links { display: none; }
+}
+</style> <nav class="aspaire-nav" data-id="bda2383b"><span data-id="b1b7052a" class="aspaire-nav__brand">ASPAIRE GROUP</span> <ul data-id="c0fa710d" class="aspaire-nav__links"><li data-id="dba4760b"><a data-id="a6d8b143" href="#hero">首页</a></li> <li data-id="2a21ec94"><a data-id="b0395607" href="#about">关于我们</a></li> <li data-id="f0b1eb1a"><a data-id="f18b4b84" href="#process">建造流程</a></li> <li data-id="366a7660"><a data-id="603433a0" href="#projects">项目展示</a></li> <li data-id="e10200ff"><a data-id="4b29b12d" href="#contact">联系我们</a></li></ul></nav></section>
+<section data-id="f76bbf35" data-section-id="hero" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.5; padding:16px 24px 0;"><style>
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
 html, body { background: var(--page); margin: 0; display: flow-root; }
 @media print {
   figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
@@ -454,131 +253,33 @@ html, body { background: var(--page); margin: 0; display: flow-root; }
   thead { display: table-header-group; }
   h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 12px; font-weight: 700; }
-.mv-lede { font-size: 15px; color: var(--muted); margin: 0 0 40px; max-width: 640px; }
-.mv-plan-img { width: 100%; display: block; margin: 0 0 40px; }
-.mv-plan-table { width: 100%; border-collapse: collapse; font-size: 14px; }
-.mv-plan-table th { text-align: left; padding: 10px 12px; font-size: 12px; color: var(--muted);
-  border-bottom: 2px solid var(--header); font-weight: 600; }
-.mv-plan-table td { padding: 14px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
-.mv-plan-table td.mv-plan-name { font-family: var(--font-display); font-size: 16px; color: var(--header); white-space: nowrap; }
-</style>
-
-<div data-id="834c7d51" style="max-width:var(--column); margin:0 auto; padding:72px 0 80px;">
-  <div data-id="bf7a2c56" class="mv-eyebrow">03 / 户型展示</div>
-  <h2 data-id="dbadf5f8" class="mv-h2">六种户型，六种生活方式</h2>
-  <p data-id="d18e294e" class="mv-lede">从年轻家庭到多代同堂，从创业者到商住两用需求，Morning Village 提供六种精心设计的联排户型。</p>
-
-  <img data-id="b280f2a4" class="mv-plan-img" src="images/morning-village-interior.webp" alt="Morning Village 联排别墅室内开放式厨房与客厅实景">
-
-  <table data-id="7def5ecb" class="mv-plan-table">
-    <thead data-id="edb7259a">
-      <tr data-id="f4c2e4e7">
-        <th data-id="d2754236" style="width:12%;">户型</th>
-        <th data-id="eca293ac" style="width:52%;">楼层配置</th>
-        <th data-id="eb626c5a">特色定位</th>
-      </tr>
-    </thead>
-    <tbody data-id="f71f7485">
-      <tr data-id="e0b90d5d">
-        <td data-id="6cd05ba7" class="mv-plan-name">T1</td>
-        <td data-id="9da3aa18">地面层车库+工坊；二层客厅、厨房、餐厅、阳台；三层2间卧室+主卧套房</td>
-        <td data-id="1aabc1e2">三层联排设计，适合年轻家庭</td>
-      </tr>
-      <tr data-id="85d285d5">
-        <td data-id="2861151e" class="mv-plan-name">T2</td>
-        <td data-id="d67954dd">地面层车库+1间卧室；二层客厅厨餐厅；三层双主卧套房设计</td>
-        <td data-id="f999f0d0">适合合租或多代同堂</td>
-      </tr>
-      <tr data-id="ab2f1bc8">
-        <td data-id="b478e07e" class="mv-plan-name">T3</td>
-        <td data-id="40f3d1d4">地下室家庭室+卧室+卫浴；一层开放式厨餐厅+双车库；二层3卧室（含主卧套房）+阳台</td>
-        <td data-id="66777e39">大户型，约 2,829 平方英尺</td>
-      </tr>
-      <tr data-id="c7282cff">
-        <td data-id="cd682b89" class="mv-plan-name">T4</td>
-        <td data-id="1fc836d0">地下室2卧室+娱乐室；一层开放式厨餐厅+双车库；二层主卧+2卧室+家庭室+阳台</td>
-        <td data-id="16551351">最大户型，约 3,303 平方英尺，适合多代同住</td>
-      </tr>
-      <tr data-id="6b5bfd9b">
-        <td data-id="6c1cdb9c" class="mv-plan-name">V3a</td>
-        <td data-id="068e69d0">一层商业空间+双车库；二层住宅（主卧、卧室、客厅、厨餐厅、阳台）</td>
-        <td data-id="fc9eb91b">商住一体，创业首选</td>
-      </tr>
-      <tr data-id="3705eff1">
-        <td data-id="6b1a5911" class="mv-plan-name">B</td>
-        <td data-id="69c6c04f">一层商业空间+仓储+双车库；二层3卧室（含主卧）+双卫浴+客厅厨餐厅+阳台</td>
-        <td data-id="f47dd229">商业与居住空间完全分离，可分租为两个独立单元</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-</section>
-<section data-section-id="mixed-use" id="mixed-use" data-id="e676cf34" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page-alt); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.6; padding:16px 24px 0; border-top:1px solid var(--rule);">
-<style>
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
+.hero-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+  color: var(--accent); margin-bottom: 18px; text-transform: uppercase;
 }
-html, body { background: var(--page-alt); margin: 0; display: flow-root; }
-@media print {
-  figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
-  img, svg { break-inside: avoid; page-break-inside: avoid; }
-  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
-  thead { display: table-header-group; }
-  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+.hero-rule { height: 1px; background: var(--rule); margin: 0 0 32px; }
+.hero-title {
+  font-family: var(--font-display); font-size: 42px; line-height: 1.2;
+  color: var(--title); margin: 0 0 20px; font-weight: 400;
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 32px; font-weight: 700; }
-.mv-quote { border-left: 3px solid var(--accent); padding: 4px 0 4px 32px; margin: 0 0 24px; }
-.mv-quote-text { font-family: var(--font-display); font-style: italic; font-size: 26px; line-height: 1.45;
-  color: var(--header); margin: 0; }
-.mv-quote-attr { font-size: 13px; color: var(--muted); margin-top: 16px; }
-</style>
-
-<div data-id="1e9e9c5d" style="max-width:var(--column); margin:0 auto; padding:72px 0 80px;">
-  <div data-id="4f39a2ae" class="mv-eyebrow">04 / 商住两用</div>
-  <h2 data-id="617cf904" class="mv-h2">一栋建筑，两重收益</h2>
-
-  <blockquote data-id="3faa2d51" class="mv-quote">
-    <p data-id="805af70f" class="mv-quote-text">V3a 与 B 户型专为小型企业主与创业者设计，独立的商业空间与居住区域完全分离——业主既可以自住兼营业，也可以将两部分分别出租，实现双重收益。</p>
-    <div data-id="64ec2f0d" class="mv-quote-attr">Morning Village 商住户型设计理念</div>
-  </blockquote>
-</div>
-</section>
-<section data-section-id="about-aspaire" id="about-aspaire" data-id="06fac6d1" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.6; padding:16px 24px 0; border-top:1px solid var(--rule);">
-<style>
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
+.hero-lead {
+  font-size: 17px; line-height: 1.7; color: var(--body); max-width: 620px;
+  margin: 0 0 32px;
 }
+.hero-media { margin: 0 0 32px; }
+.hero-media img { width: 100%; height: auto; display: block; }
+.hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+.hero-btn {
+  display: inline-block; padding: 13px 28px; font-size: 14px;
+  text-decoration: none; letter-spacing: 0.02em;
+}
+.hero-btn--primary { background: var(--header); color: var(--page); }
+.hero-btn--ghost { border: 1px solid var(--header); color: var(--header); }
+</style> <div id="hero" style="max-width:var(--column); margin:0 auto;" data-id="608826b9"><div data-id="ed5606c8" class="hero-eyebrow">01 / 首页</div> <h1 data-id="4a80735b" class="hero-title">ASPAIRE —— 用匠心，建造理想生活</h1> <p data-id="3843d0c4" class="hero-lead">
+    ASPAIRE 是一家专注品质与工艺的建筑与地产开发公司，致力于为萨斯喀彻温省新兴社区打造高品质联排别墅项目。我们相信，理想的生活始于每一处精心考量的细节。
+  </p> <div data-id="70497be1" class="hero-media"><img data-id="03aa7ec0" src="images/aspaire-hero-townhomes.webp" alt="黄昏光线下的现代联排别墅社区外观"></div> <div data-id="e36b4808" class="hero-actions"><a data-id="d89068ba" class="hero-btn hero-btn--primary" href="#projects">查看在售项目</a> <a data-id="c5719c4f" class="hero-btn hero-btn--ghost" href="#contact">预约咨询</a></div> <div data-id="7984e08c" class="hero-rule" style="margin-top:32px;"></div></div></section>
+<section data-id="e91313df" data-section-id="about" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page-alt); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.5; padding:16px 24px 0;"><style>
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
 html, body { background: var(--page); margin: 0; display: flow-root; }
 @media print {
   figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
@@ -587,114 +288,28 @@ html, body { background: var(--page); margin: 0; display: flow-root; }
   thead { display: table-header-group; }
   h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 32px; font-weight: 700; }
-.mv-about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
-.mv-about-img { width: 100%; display: block; }
-.mv-about-copy p { font-size: 15px; line-height: 1.7; margin: 0 0 18px; }
-.mv-agent { border-top: 1px solid var(--rule); padding-top: 16px; margin-top: 8px; }
-.mv-agent-name { font-family: var(--font-display); font-size: 17px; color: var(--header); margin-bottom: 4px; }
-.mv-agent-role { font-size: 13px; color: var(--muted); }
-@media (max-width: 640px) { .mv-about-grid { grid-template-columns: 1fr; } }
-</style>
-
-<div data-id="22e393c5" style="max-width:var(--column); margin:0 auto; padding:72px 0 80px;">
-  <div data-id="de855437" class="mv-eyebrow">05 / 关于 ASPAIRE</div>
-  <h2 data-id="9f23a13c" class="mv-h2">品质与工艺，是我们回应每一个新兴区域的方式</h2>
-
-  <div data-id="acd6d2d5" class="mv-about-grid">
-    <div data-id="65bd3be1" class="mv-about-copy">
-      <p data-id="7e44bc14">ASPAIRE 是一家专注品质与工艺的建筑与地产开发公司，Morning Village 是其倾力打造的社区项目。从选址到设计，ASPAIRE 以联排别墅这一产品线回应萨斯喀彻温省新兴区域的居住与投资需求，力求让每一位业主在细节工艺中感受品质。</p>
-      <div data-id="b7db48cc" class="mv-agent">
-        <div data-id="4c17898e" class="mv-agent-name">Linda Yu</div>
-        <div data-id="d0fbcd0e" class="mv-agent-role">Broker | Realtor · Aspaire Realty Inc. · 销售团队领衔</div>
-      </div>
-    </div>
-    <img data-id="c50cf5c0" class="mv-about-img" src="images/morning-village-design-flatlay.webp" alt="建筑设计图纸与户型模型展示 ASPAIRE 的设计工艺">
-  </div>
-</div>
-</section>
-<section data-section-id="construction-process" id="construction-process" data-id="515d8eda" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page-alt); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.6; padding:16px 24px 0; border-top:1px solid var(--rule);">
-<style>
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
+.about-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+  color: var(--accent); margin-bottom: 18px; text-transform: uppercase;
 }
-html, body { background: var(--page-alt); margin: 0; display: flow-root; }
-@media print {
-  figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
-  img, svg { break-inside: avoid; page-break-inside: avoid; }
-  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
-  thead { display: table-header-group; }
-  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+.about-rule { height: 1px; background: var(--rule); margin: 0 0 40px; }
+.about-heading {
+  font-family: var(--font-display); font-size: 30px; color: var(--title);
+  margin: 0 0 28px; font-weight: 400;
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 8px; font-weight: 700; }
-.mv-lede { font-size: 15px; color: var(--muted); margin: 0 0 40px; }
-.mv-steps { padding-left: 24px; margin: 0; font-size: 14px; }
-.mv-steps li { margin-bottom: 22px; padding-left: 6px; }
-.mv-steps li::marker { font-family: var(--font-display); color: var(--header); font-weight: 700; }
-.mv-steps strong { display: block; font-family: var(--font-display); font-size: 17px; color: var(--header);
-  margin-bottom: 4px; font-weight: 700; }
-</style>
-
-<div data-id="5badc6cf" style="max-width:var(--column); margin:0 auto; padding:72px 0 80px;">
-  <div data-id="4f00b08e" class="mv-eyebrow">06 / 建造流程</div>
-  <h2 data-id="a69e8fb3" class="mv-h2">我们的建造流程</h2>
-  <p data-id="2273dcda" class="mv-lede">从设计到交房，每一步都清晰可见。</p>
-
-  <ol data-id="10047c7a" class="mv-steps">
-    <li data-id="7029a945">
-      <strong data-id="6a893d7e">咨询与设计</strong>
-      需求沟通、概念设计、预算规划——我们首先了解您的居住或投资目标，确定适合的户型方向。
-    </li>
-    <li data-id="decb9e9c">
-      <strong data-id="8bb8f8c6">深化设计</strong>
-      图纸确定、材料选择、报价锁定——将概念落实为可执行的施工图纸与明确报价。
-    </li>
-    <li data-id="5bf8de61">
-      <strong data-id="32d95582">施工阶段</strong>
-      定期进度更新、现场参观安排——让您随时掌握建造进度，安心等待交付。
-    </li>
-    <li data-id="6163767d">
-      <strong data-id="82909c37">交付与售后</strong>
-      验收流程、保修条款、后续维护——完整的交付标准与售后保障，伴您入住无忧。
-    </li>
-  </ol>
-</div>
-</section>
-<section data-section-id="contact" id="contact" data-id="58b6c674" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.6; padding:16px 24px 0; border-top:1px solid var(--rule);">
-<style>
-:root {
-  --page: #ffffff;
-  --page-alt: #f7f5f1;
-  --body: #2b2b28;
-  --title: #14261f;
-  --header: #1c2f4a;
-  --accent: #1f3d2e;
-  --muted: #6b6b63;
-  --rule: #e2ded5;
-  --font-display: 'Cambria', 'Constantia', serif;
-  --font-body: 'Calibri', sans-serif;
-  --font-mono: 'Consolas', monospace;
-  --gap-section: 32px;
-  --gap-inside: 16px;
-  --column: 780px;
+.about-grid {
+  display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: start;
 }
+.about-grid img { width: 100%; height: auto; display: block; }
+.about-text p { font-size: 15px; line-height: 1.75; margin: 0 0 18px; }
+.about-lead-name { font-family: var(--font-display); font-size: 18px; color: var(--header); margin: 0 0 4px; }
+.about-lead-role { font-size: 13px; color: var(--muted); margin: 0; }
+@media (max-width: 640px) {
+  .about-grid { grid-template-columns: 1fr; }
+}
+</style> <div id="about" style="max-width:var(--column); margin:0 auto;" data-id="e43a3792"><div data-id="d9ea5acf" class="about-eyebrow">02 / 关于我们</div> <div data-id="e84bad68" class="about-rule"></div> <h2 data-id="f37a0916" class="about-heading">关于 ASPAIRE</h2> <div data-id="7fc0717b" class="about-grid"><div data-id="3fae9440" class="about-text"><p data-id="8baf249f">ASPAIRE 是一家专注品质与工艺的建筑与地产开发公司。从选址到设计，我们以联排别墅这一产品线，回应萨斯喀彻温省新兴区域不断增长的居住与投资需求。</p> <p data-id="6b4a1603">我们相信，真正的品质藏于细节之中。从材料的选择到工艺的打磨，ASPAIRE 力求让每一位业主都能在生活的日常里感受到用心的痕迹。</p> <p data-id="6827c87c" class="about-lead-name">Linda Yu</p> <p data-id="8ef49048" class="about-lead-role">Broker | Realtor — 领衔销售团队，提供从看房到成交的全程专业服务</p></div> <div data-id="e2e06b55"><img data-id="40c4fd1c" src="images/aspaire-team-design.webp" alt="设计团队在工作室审阅图纸与材料样本"></div></div></div></section>
+<section data-id="7fea3d4c" data-section-id="process" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.5; padding:16px 24px 0;"><style>
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
 html, body { background: var(--page); margin: 0; display: flow-root; }
 @media print {
   figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
@@ -703,44 +318,98 @@ html, body { background: var(--page); margin: 0; display: flow-root; }
   thead { display: table-header-group; }
   h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
 }
-.mv-eyebrow { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
-  color: var(--accent); text-transform: uppercase; margin-bottom: 12px; }
-.mv-h2 { font-family: var(--font-display); font-size: 30px; color: var(--title); margin: 0 0 12px; font-weight: 700; }
-.mv-lede { font-size: 15px; color: var(--muted); margin: 0 0 40px; max-width: 560px; }
-.mv-contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-.mv-contact-name { font-family: var(--font-display); font-size: 22px; color: var(--header); margin-bottom: 4px; }
-.mv-contact-role { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
-.mv-contact-list { list-style: none; margin: 0; padding: 0; font-size: 14px; }
-.mv-contact-list li { padding: 10px 0; border-bottom: 1px solid var(--rule); }
-.mv-contact-list li:first-child { padding-top: 0; }
-.mv-contact-label { display: inline-block; width: 64px; color: var(--muted); font-size: 12px; }
-.mv-cta { align-self: start; }
-.mv-btn-primary { display: inline-block; background: var(--accent); color: #ffffff; font-size: 14px; font-weight: 600;
-  padding: 14px 28px; text-decoration: none; border: 1px solid var(--accent); }
-@media (max-width: 640px) { .mv-contact-grid { grid-template-columns: 1fr; } }
-</style>
-
-<div data-id="d088e481" style="max-width:var(--column); margin:0 auto; padding:72px 0 80px;">
-  <div data-id="b0a9c105" class="mv-eyebrow">07 / 联系我们</div>
-  <h2 data-id="22793938" class="mv-h2">预约参观，从一次对话开始</h2>
-  <p data-id="2defd187" class="mv-lede">已建成的样板间随时欢迎参观。联系销售顾问 Linda Yu，了解户型详情与购买流程。</p>
-
-  <div data-id="8971b335" class="mv-contact-grid">
-    <div data-id="1fec312d">
-      <div data-id="8e700e61" class="mv-contact-name">Linda Yu</div>
-      <div data-id="7f4611b1" class="mv-contact-role">Broker | Realtor · Aspaire Realty Inc.</div>
-      <ul data-id="0cfeec8f" class="mv-contact-list">
-        <li data-id="a25a09bc"><span data-id="98424242" class="mv-contact-label">地址</span>1102 8th Street East, Saskatoon, SK S7H 0S4</li>
-        <li data-id="73536390"><span data-id="ca058e47" class="mv-contact-label">电话</span>+1 306 850 7818 / +1 306 683 6666</li>
-        <li data-id="5d150ce8"><span data-id="b1d66f67" class="mv-contact-label">邮箱</span>linda.yu@aspaire.ca</li>
-        <li data-id="2412cbe8"><span data-id="cfeafef6" class="mv-contact-label">网站</span>www.aspaire.ca</li>
-      </ul>
-    </div>
-    <div data-id="774cc4e9" class="mv-cta">
-      <a data-id="ce7ee47a" class="mv-btn-primary" href="mailto:linda.yu@aspaire.ca">预约参观样板间</a>
-    </div>
-  </div>
-</div>
-</section>
+.proc-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+  color: var(--accent); margin-bottom: 18px; text-transform: uppercase;
+}
+.proc-rule { height: 1px; background: var(--rule); margin: 0 0 40px; }
+.proc-heading {
+  font-family: var(--font-display); font-size: 30px; color: var(--title);
+  margin: 0 0 8px; font-weight: 400;
+}
+.proc-sub { font-size: 15px; color: var(--muted); margin: 0 0 36px; }
+.proc-steps {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 32px 40px;
+}
+.proc-step { border-top: 1px solid var(--rule); padding-top: 16px; }
+.proc-step-num {
+  font-family: var(--font-display); font-size: 22px; color: var(--accent);
+  display: block; margin-bottom: 8px;
+}
+.proc-step-title { font-size: 16px; color: var(--header); font-weight: 600; margin: 0 0 8px; }
+.proc-step-desc { font-size: 14px; color: var(--body); margin: 0; line-height: 1.6; }
+@media (max-width: 640px) {
+  .proc-steps { grid-template-columns: 1fr; }
+}
+</style> <div id="process" style="max-width:var(--column); margin:0 auto;" data-id="9bf5b849"><div data-id="123fa4f8" class="proc-eyebrow">03 / 建造流程</div> <div data-id="6c22402c" class="proc-rule"></div> <h2 data-id="d0ab1006" class="proc-heading">我们的建造流程</h2> <p data-id="9376bf20" class="proc-sub">从设计到交房，每一步都清晰可见</p> <ol data-id="533af59a" class="proc-steps"><li data-id="fb48f4c9" class="proc-step"><span data-id="ca2e882c" class="proc-step-num">01</span> <p data-id="03ad5b66" class="proc-step-title">咨询与设计</p> <p data-id="f1ec9296" class="proc-step-desc">需求沟通、概念设计、预算规划，与业主共同确立项目方向。</p></li> <li data-id="b7535e83" class="proc-step"><span data-id="7693d015" class="proc-step-num">02</span> <p data-id="25ac4c89" class="proc-step-title">深化设计</p> <p data-id="6eea3b5e" class="proc-step-desc">图纸确定、材料选择、报价锁定，为施工阶段做好全面准备。</p></li> <li data-id="4d40c0a4" class="proc-step"><span data-id="c8791f16" class="proc-step-num">03</span> <p data-id="6c5c5499" class="proc-step-title">施工阶段</p> <p data-id="2fab7ac2" class="proc-step-desc">定期进度更新、现场参观安排，让业主随时掌握建造进展。</p></li> <li data-id="ee93367d" class="proc-step"><span data-id="e919cdfe" class="proc-step-num">04</span> <p data-id="b45db498" class="proc-step-title">交付与售后</p> <p data-id="63a09646" class="proc-step-desc">验收流程、保修条款、后续维护，确保交房之后依然安心。</p></li></ol></div></section>
+<section data-id="deb26519" data-section-id="projects" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--page-alt); color:var(--body); font-family:var(--font-body); font-size:16px; line-height:1.5; padding:16px 24px 0;"><style>
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
+html, body { background: var(--page); margin: 0; display: flow-root; }
+@media print {
+  figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
+  img, svg { break-inside: avoid; page-break-inside: avoid; }
+  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+}
+.proj-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+  color: var(--accent); margin-bottom: 18px; text-transform: uppercase;
+}
+.proj-rule { height: 1px; background: var(--rule); margin: 0 0 40px; }
+.proj-heading {
+  font-family: var(--font-display); font-size: 30px; color: var(--title);
+  margin: 0 0 28px; font-weight: 400;
+}
+.proj-card {
+  background: var(--page);
+  display: grid; grid-template-columns: 1.1fr 0.9fr;
+}
+.proj-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.proj-card-body { padding: 32px; display: flex; flex-direction: column; justify-content: center; }
+.proj-name {
+  font-family: var(--font-display); font-size: 24px; color: var(--header);
+  margin: 0 0 6px;
+}
+.proj-loc { font-size: 13px; color: var(--muted); margin: 0 0 16px; letter-spacing: 0.02em; }
+.proj-desc { font-size: 14px; line-height: 1.7; color: var(--body); margin: 0 0 24px; }
+.proj-link {
+  font-size: 14px; color: var(--header); text-decoration: none; font-weight: 600;
+  border-bottom: 1px solid var(--header); padding-bottom: 2px; align-self: flex-start;
+}
+@media (max-width: 640px) {
+  .proj-card { grid-template-columns: 1fr; }
+}
+</style> <div id="projects" style="max-width:var(--column); margin:0 auto;" data-id="4a420ab2"><div data-id="f65772af" class="proj-eyebrow">04 / 项目展示</div> <div data-id="6ac3ab67" class="proj-rule"></div> <h2 data-id="8206fcf7" class="proj-heading">精选项目</h2> <div data-id="f895a5a8" class="proj-card"><img data-id="dfc0788a" src="images/aspaire-project-townhomes.webp" alt="现代联排别墅项目外观，简洁线条与深色木质外墙"> <div data-id="a02b1b19" class="proj-card-body"><p data-id="9b867a27" class="proj-name">MORNING VILLAGE</p> <p data-id="86db1efc" class="proj-loc">萨斯喀彻温省 · Dundurn 小镇</p> <p data-id="307218d6" class="proj-desc">坐落于萨斯喀彻温省 Dundurn 小镇，提供六种精心设计的联排户型，从年轻家庭到商住两用需求，满足多元生活场景。</p> <a data-id="cdfb035b" class="proj-link" href="projects/morning-village.html">查看项目详情 →</a></div></div></div></section>
+<section data-id="7df69ea3" data-section-id="contact" style="display:flow-root; width:100%; min-height:100%; box-sizing:border-box; background:var(--header); color:var(--page); font-family:var(--font-body); font-size:16px; line-height:1.5; padding:16px 24px 0;"><style>
+:root { --page: #ffffff; --page-alt: #f7f5f1; --body: #33362f; --title: #1c2f4a; --header: #1c2f4a; --accent: #1f3d2e; --muted: #767a71; --rule: #e2ded4; --font-display: 'Cambria', 'Constantia', serif; --font-body: 'Calibri', sans-serif; --font-mono: 'Consolas', monospace; --gap-section: 32px; --gap-inside: 16px; --column: 780px; }
+html, body { background: var(--page); margin: 0; display: flow-root; }
+@media print {
+  figure, blockquote, aside, .callout, .c-callout { break-inside: avoid; page-break-inside: avoid; }
+  img, svg { break-inside: avoid; page-break-inside: avoid; }
+  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+}
+.contact-eyebrow {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
+  color: color-mix(in srgb, var(--page) 65%, var(--accent));
+  margin-bottom: 18px; text-transform: uppercase;
+}
+.contact-rule { height: 1px; background: color-mix(in srgb, var(--page) 25%, var(--header)); margin: 0 0 40px; }
+.contact-heading {
+  font-family: var(--font-display); font-size: 30px; color: var(--page);
+  margin: 0 0 32px; font-weight: 400;
+}
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px 40px; padding-bottom: 40px; }
+.contact-grid dt {
+  font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--page) 65%, var(--accent)); margin: 0 0 6px;
+}
+.contact-grid dd { font-size: 15px; color: var(--page); margin: 0 0 24px; line-height: 1.6; }
+.contact-name { font-family: var(--font-display); font-size: 20px; color: var(--page); margin: 0 0 4px; }
+.contact-role { font-size: 13px; color: color-mix(in srgb, var(--page) 70%, var(--accent)); margin: 0 0 28px; }
+</style> <div id="contact" style="max-width:var(--column); margin:0 auto;" data-id="c466746d"><div data-id="b730c672" class="contact-eyebrow">05 / 联系我们</div> <div data-id="489b8be3" class="contact-rule"></div> <h2 data-id="8cbd5451" class="contact-heading">联系我们</h2> <p data-id="da47c3aa" class="contact-name">Linda Yu</p> <p data-id="c1887790" class="contact-role">Broker | Realtor — Aspaire Realty Inc.</p> <dl data-id="a6ab4965" class="contact-grid"><div data-id="ea145cbb"><dt data-id="432156b5">地址</dt> <dd data-id="0361ff52">1102 8th Street East, Saskatoon, SK S7H 0S4</dd> <dt data-id="e756e736">电话</dt> <dd data-id="563eae07">+1 306 850 7818 / +1 306 683 6666</dd></div> <div data-id="91e1753c"><dt data-id="33da16ac">邮箱</dt> <dd data-id="deb8b889">linda.yu@aspaire.ca</dd> <dt data-id="54c2f7ab">网站</dt> <dd data-id="51152bb9">www.aspaire.ca</dd></div></dl></div></section>
 </body>
 </html>
